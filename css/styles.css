@@ -3030,8 +3030,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #14906b;
+  border-color: #14906b;
 }
 
 .btn-secondary {
@@ -6690,7 +6690,7 @@ textarea.form-control-lg {
   display: inline !important;
 }
 
-.d-inline-block {
+.d-inline-block {3
   display: inline-block !important;
 }
 
@@ -11321,10 +11321,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #14906b;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #14906b !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -11355,13 +11355,13 @@ hr.divider-light {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f4623a;
+    color: #14906b;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #14906b;
   }
 }
 
