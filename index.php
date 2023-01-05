@@ -20,20 +20,9 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Sacá Bachi</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">Registro</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Planes de estudio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <?php
+        include './PHP/components/navbar.php';
+        ?>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
@@ -57,7 +46,7 @@
                         <h2 class="text-white mt-0">Registrese y de paso a su futuro profesional</h2>
                         <hr class="divider divider-light" />
                         <p class="text-white-75 mb-4">Gracias a nuestra página podrás prepararte para tu examen de bachillerato, animate a probar nuestro servicio.</p>
-                        <a class="btn btn-light btn-xl" href="/registro.html">Registrese</a>
+                        <a class="btn btn-light btn-xl" href="./PHP/registro.php">Registrese</a>
                     </div>
                 </div>
             </div>
@@ -132,7 +121,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                        <a  href="/html/manejo.html" title="Project Name">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/prueba.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 
