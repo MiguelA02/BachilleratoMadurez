@@ -17,74 +17,33 @@
         <div>
             <!-- PREGUNTA 1-->
             <div>
-
-                <p>
-                    1.¿Quién planea el “QUE” se hará durante el Sprint y “Como” se hará?
-                </p>
-
+                
                 <div>
-                    <input type="radio">
                     <p>
-                        A): Los usuarios.
+                        1.¿Quién planea el “QUE” se hará durante el Sprint y “Como” se hará?
                     </p>
+                    <form name="myForm1">
+                        <input type="radio" name="myRadios1"  value="1" >A) Los usuarios.</input>
+                        <input type="radio" name="myRadios1"  value="0" />B) No se ni picha</input>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): El SCRUM Team.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): El jefe.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): Los desarrolladores.
-                    </p>
-                </div>
-                <br></br>
-
+                
                 <!-- PREGUNTA 2-->
-                <p>
-                    2. ¿Qué podría suceder cuando se omite el refinamiento del Product Backlog (Product Refinement)?
-
-                </p>
 
                 <div>
-                    <input type="radio">
                     <p>
-                        A): ASDASDADSASSDADASD.
+                        2. ¿Qué podría suceder cuando se omite el refinamiento del Product Backlog (Product Refinement)?
                     </p>
+                    <form name="myForm2">
+                        <input type="radio" name="myRadios2"  value="1" >A) Los usuarios.</input>
+                        <input type="radio" name="myRadios2"  value="0" />B) No se ni picha</input>
+                    </form>
                 </div>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): ADASDADADADASD.
-                    </p>
-                </div>
+                
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): ADSADADADADADAS.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): Hay problemas cuando se planea el próximo Sprint.
-                    </p>
-                </div>
-                <br></br>
+                
+                
 
                 <!-- PREGUNTA 3-->
                 <p>
@@ -3621,10 +3580,10 @@
 
             </div>
         </div>
-        <button type="submit" name="resultado">Resultado</button>
+        <button type="submit" onClick = 'return enviar()'>Resultado</button>
 
     </div>
-
+<script src = '../js/cScrum.js'></script>
 </body>
 
 </html>
