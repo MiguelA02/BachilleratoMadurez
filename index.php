@@ -95,7 +95,7 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6">
-                        <a  href="/html/cScrum.html" >
+                        <a  href="./PHP/cScrum.php" >
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/scrum.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-name">SCRUM</div>
@@ -107,7 +107,7 @@
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/bachillerato.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 
-                                <div class="project-name">Bachillerato</div>
+                                <div class="project-name">ISTQB</div>
                             </div>
                         </a>
                     </div>
