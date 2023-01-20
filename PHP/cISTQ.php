@@ -1,226 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuestionario ISQTB</title>
+
+    <title>Cuestionario SCRUM</title>
+    <!-- Favicon-->
+   
 </head>
-<body>  
-<div>
+
+<body>
+    <div>
         <h1>Cuestionario de práctica para SCRUM</h1>
         <div>
             <!-- PREGUNTA 1-->
             <div>
-
-                <p>
-                    1.¿Quién planea el “QUE” se hará durante el Sprint y “Como” se hará?
-                </p>
-
+                
                 <div>
-                    <input type="radio">
                     <p>
-                        A): Los usuarios.
+                        1.¿Cuál de las siguientes es la MEJOR descripción de una condición de prueba?
                     </p>
+                    <form name="myForm1">
+                        <input type="radio" name="myRadios1"  value="1" >A) Un atributo de un componente o sistema especificado o implícito en la documentación de requisitos.</input>
+                        <input type="radio" name="myRadios1"  value="0" />B) Un aspecto de la base de prueba que es relevante para lograr objetivos de prueba específicos.</input>
+                        <input type="radio" name="myRadios1"  value="0" />C) La capacidad del producto de software para proporcionar funciones que cumplan con las necesidades declaradas e implícitas cuando el software se utiliza en condiciones específicas.</input>
+                        <input type="radio" name="myRadios1"  value="0" />D) El porcentaje de todos los resultados de condición única que afectan de manera independiente el resultado de una decisión que haya sido ejercida por un juego de casos de prueba.</input>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): El SCRUM Team.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): El jefe.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): Los desarrolladores.
-                    </p>
-                </div>
-                <br></br>
-
+                
                 <!-- PREGUNTA 2-->
-                <p>
-                    2. ¿Qué podría suceder cuando se omite el refinamiento del Product Backlog (Product Refinement)?
-
-                </p>
 
                 <div>
-                    <input type="radio">
                     <p>
-                        A): ASDASDADSASSDADASD.
+                        2. ¿Cuál de las siguientes afirmaciones es un objetivo válido para las pruebas?
                     </p>
-                </div>
+                    <form name="myForm2">
+                        <input type="radio" name="myRadios2"  value="1" >A) Determinar si se ejecutaron suficientes pruebas de componente dentro de las pruebas de sistema.</input>
+                        <input type="radio" name="myRadios2"  value="0" />B) Encontrar la mayor cantidad de fallos posibles para que los defectos se puedan identificar y solucionar.</input>
+                        <input type="radio" name="myRadios2"  value="0" />C) Demostrar que todos los posibles defectos son identificados.</input>
+                        <input type="radio" name="myRadios2"  value="0" />D) Probar que cualquier defecto restante no causará fallos</input>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): ADASDADADADASD.
-                    </p>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): ADSADADADADADAS.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): Hay problemas cuando se planea el próximo Sprint.
-                    </p>
-                </div>
-                <br></br>
 
                 <!-- PREGUNTA 3-->
-                <p>
-                    3. ¿Quién determina el plan de acción para entregar el incremento?
-
-                </p>
-
                 <div>
-                    <input type="radio">
                     <p>
-                        A): Los desarrolladores.
+                        3. ¿Cuál de las siguientes afirmaciones describe correctamente la diferencia entre probar y depurar?
                     </p>
-                </div>
+                    <form name="myForm3">
+                        <input type="radio" name="myRadios3"  value="1" >A) La prueba identifica la fuente de los defectos; la depuración analiza los defectos y propone actividades de prevención.</input>
+                        <input type="radio" name="myRadios3"  value="0" />B) Las pruebas muestran fallos causados por defectos; la depuración encuentra, analiza y elimina las causas de fallos en el software.</input>
+                        <input type="radio" name="myRadios3"  value="0" />C) Las pruebas eliminan fallos; la depuración identifica las causas de los fallos.</input>
+                        <input type="radio" name="myRadios3"  value="0" />D) Las pruebas previenen las causas de los fallos; la depuración elimina los fallos.</input>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): Los Jefes.
-                    </p>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): ASDASDADAD.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): ASDADADADA.
-                    </p>
-                </div>
-                <br></br>
+                
 
                 <!-- PREGUNTA 4-->
-                <p>
-                    4. ¿Cómo puede un scrum master servir a la organización para la cual el/ella trabaja?
-
-                </p>
-
                 <div>
-                    <input type="radio">
                     <p>
-                        A): asdasdasd.
+                        4. ¿Cuál de las siguientes afirmaciones describe un fallo detectado durante las pruebas o en la producción?
                     </p>
-                </div>
+                    <form name="myForm4">
+                        <input type="radio" name="myRadios4"  value="1" >A)  El producto se bloqueó cuando el usuario seleccionó una opción en un cuadro de diálogo.</input>
+                        <input type="radio" name="myRadios4"  value="0" />B) La versión incorrecta de un archivo de código fuente fue incluida en la compilación.</input>
+                        <input type="radio" name="myRadios4"  value="0" />C) El algoritmo de cálculo utilizó las variables de entrada incorrectas.</input>
+                        <input type="radio" name="myRadios4"  value="0" />D) El desarrollador malinterpretó el requisito del algoritmo.</input>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): Liderando, entrenando y enseñando a la organización en su adopción de scrum.
-                    </p>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): ASDASDADAD.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): ASDADADADA.
-                    </p>
-                </div>
-                <br></br>
+                
 
                 <!-- PREGUNTA 5-->
-                <p>
-                    5. ¿Cuál es la teoría de control utilizada en Scrum para optimizar la predictibilidad y mitigar los
-                    riesgos??
-
-                </p>
-
                 <div>
-                    <input type="radio">
                     <p>
-                        A): Teoria ....
+                        5. ¿Cuál de las siguientes afirmaciones describe CORRECTAMENTE uno de los siete principios clave de las pruebas de software?
                     </p>
-                </div>
+                    <form name="myForm5">
+                        <input type="radio" name="myRadios5"  value="1" >A) Al usar pruebas automatizadas es posible probarlo todo.</input>
+                        <input type="radio" name="myRadios5"  value="0" />B) Con suficiente esfuerzo y soporte de herramientas, es factible realizar pruebas exhaustivas para todo el software.</input>
+                        <input type="radio" name="myRadios5"  value="0" />C) Es imposible probar todas las combinaciones de entrada y condiciones previas en un sistema.</input>
+                        <input type="radio" name="myRadios5"  value="0" />D) El propósito de la prueba es probar la ausencia de defectos.</input>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): Teoría de control empírica.
-                    </p>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): Teoria.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): Teoria.
-                    </p>
-                </div>
-                <br></br>
 
                 <!-- PREGUNTA 6-->
-                <p>
-                    6. ¿Un resultado posible del Sprint Review es…?
-
-                </p>
-
                 <div>
-                    <input type="radio">
                     <p>
-                        A): Determinar adaptaciones futuras.
+                        6. ¿De qué manera las pruebas pueden ser parte del aseguramiento de la calidad?
                     </p>
-                </div>
+                    <form name="myForm6">
+                        <input type="radio" name="myRadios6"  value="1" >A) Asegura que los requisitos sean lo suficientemente detallados.</input>
+                        <input type="radio" name="myRadios6"  value="0" />B) Reduce el nivel de riesgo para la calidad del sistema.</input>
+                        <input type="radio" name="myRadios6"  value="0" />C) Asegura que se cumplan las normas en la organización.</input>
+                        <input type="radio" name="myRadios6"  value="0" />D) Mide la calidad del software en términos de número de casos de prueba ejecutados.</input>
 
-                <div>
-                    <input type="radio">
-                    <p>
-                        B): asdasdada.
-                    </p>
+                    </form>
                 </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        C): asdadad.
-                    </p>
-                </div>
-
-                <div>
-                    <input type="radio">
-                    <p>
-                        D): asdadad.
-                    </p>
-                </div>
-                <br></br>
+        
+            
 
                 <!-- PREGUNTA 7-->
                 <p>
@@ -3616,12 +3499,8 @@
 
             </div>
         </div>
-        <button type="submit" name="resultado">Resultado</button>
+        <button type="submit" onClick = 'return enviar()'>Resultado</button>
 
     </div>
-
+<script src = '../js/cISTQ.js'></script>
 </body>
- 
-    
-</body>
-</html>
