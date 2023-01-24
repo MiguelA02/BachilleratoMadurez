@@ -216,7 +216,7 @@
 
             </div>
         </div>
-        <button type="submit" onClick='return enviar()'>Resultado</button>
+        <button type="submit" onClick='return enviarScrum()'>Resultado</button>
 
     </div>
     <script src='../js/cScrum.js'></script>

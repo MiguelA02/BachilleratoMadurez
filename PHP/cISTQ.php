@@ -619,8 +619,8 @@
                 </div>          
             </div>
         </div>
-        <button type="submit" onClick = 'return enviar()'>Resultado</button>
+        <a href="./score.php"><button type="submit" onClick = 'return enviarISTQ()'>Resultado</button></a>
 
     </div>
-<script src = '../js/cISTQ.js'></script>
+    <script src='../js/cScrum.js'></script>
 </body>
