@@ -103,7 +103,7 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-6">
-                        <a class="portfolio-box" href="assets/img/portfolio/fullsize/2.jpg" title="Project Name">
+                        <a href="./PHP/cISTQ.php">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/bachillerato.jpg" alt="..." />
                             <div class="portfolio-box-caption">
                                 
