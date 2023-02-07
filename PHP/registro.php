@@ -18,25 +18,25 @@
     
     <div class="registration-form">
 
-        <form>
+        <form action="conexion.php" method="post">
             <div class="form-icon">
                 <span><i class="icon icon-user"></i></span>
             </div>
             <div class="form-group">
-                <input type="text" class="form-control item" id="username" placeholder="Nombre">
+                <input type="text" class="form-control item" id="username" name ='username' placeholder="Nombre">
             </div>
             <div class="form-group">
-                <input type="text" class="form-control item" id="email" placeholder="Correo">
+                <input type="text" class="form-control item" id="email" name='email' placeholder="Correo">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control item" id="password" placeholder="Contraseña">
+                <input type="password" class="form-control item" id="password" name ="password"  placeholder="Contraseña">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control item" id="password" placeholder="Confirme su contraseña">
+                <input type="password" class="form-control item" id="password" name = "passwordConfirm" placeholder="Confirme su contraseña">
             </div>
 
             <div class="form-group">
-                <button type="button" class="btn btn-block create-account">Crear usuario</button>
+                <button type="submit" class="btn btn-block create-account" name = 'btnSubmit'>Crear usuario</button>
                 
                 <a href="../index.php">
                     <button type="button" class="btn btn-block create-account">Inicio</button>
